@@ -1,8 +1,137 @@
-<html>
-	<head>
-	<title>Home</title>
-	</head>
-	<body>
-	<h1>Welcome to Bright</h1>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRight Institute - Trincomalee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Light blue shade */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #03a9f4;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0288d1;
+        }
+        nav a {
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #01579b;
+        }
+        .content {
+            padding: 20px;
+        }
+        .achievement {
+            margin: 20px auto;
+            background-color: #b3e5fc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .achievement h2 {
+            text-align: center;
+        }
+        .achievement table {
+            width: 60%;
+            border-collapse: collapse;
+        }
+        .achievement th, .achievement td {
+            border: 1px solid #0288d1;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #0288d1;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .student-images {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .student-images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #0288d1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Bright Institute, Trincomalee</h1>
+    <p>Empowering over 500 students</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Help</a>
+    <a href="#">Services</a>
+    <a href="#">Student Performance</a>
+</nav>
+
+<div class="content">
+    <section class="student-images">
+        <img src="student.jpeg" alt="Student 1">
+        <img src="student2.jpeg" alt="Student 2">
+        <img src="student3.jpeg" alt="Student 3">
+    </section>
+
+    <section class="achievement">
+        <h2>G.C.E O/L Student Achievements (Last 3 Years)</h2>
+        <table width="70%">
+            <tr>
+                <th>Year</th>
+                <th>Number of Students</th>
+                <th>Passed</th>
+                <th>Distinctions</th>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>150</td>
+                <td>140</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>160</td>
+                <td>155</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>170</td>
+                <td>165</td>
+                <td>100</td>
+            </tr>
+        </table>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 BRight Institute, Trincomalee. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
